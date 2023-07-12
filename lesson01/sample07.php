@@ -1,9 +1,9 @@
 <?php
-  $i = 1;
-  echo $i. '<br>';
+  $i = 1; //初期化
+  // echo $i. '<br>'; 
 
-  while($i < 366):
-    $i = $i + 1;
+  while($i < 366):   //繰り返し条件
     echo $i. '<br>';
+    $i = $i + 1;     //更新処理
   endwhile;
 ?>
